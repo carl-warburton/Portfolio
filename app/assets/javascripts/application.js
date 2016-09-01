@@ -15,3 +15,16 @@
 //= require turbolinks
 //= require bootstrap-sprockets
 //= require_tree .
+
+
+$("#menu-close").click(function(e) {
+    e.preventDefault();
+    $("#sidebar-wrapper").toggleClass("active");
+     alert("sup")
+});
+// Opens the sidebar menu
+$("#menu-toggle").click(function(e) {
+    e.preventDefault();
+    $("#sidebar-wrapper").toggleClass("active");
+    
+});

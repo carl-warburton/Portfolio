@@ -101,7 +101,7 @@
                               <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                 <div class="flipper">
                                   <div class="front">
-                                    <img class="ExamplePhoto" src="<%= asset_path 'iphonered.png' %>" style="width:220px; height:440px;">
+                                    <img class="ExamplePhoto" src="<%= asset_path 'iphonered.png' %>" style="width:220px; height:440px; border-radius:40px;">
 		                                </div>
 		                                  <div class="back">
                                         <a href="#">
@@ -112,7 +112,7 @@
                                         <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                           <div class="flipper">
                                             <div class="front">
-                                              <img class="ExamplePhoto" src="<%= asset_path 'iphoneblue.png' %>" style="width:220px; height:440px;">
+                                              <img class="ExamplePhoto" src="<%= asset_path 'iphoneblue.png' %>" style="width:220px; height:440px; border-radius:40px;">
                                               </div>
                                                 <div class="back">
                                                   <a href="http://www.unlabelled-designs.com/">
@@ -129,7 +129,7 @@
                                               <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                                 <div class="flipper">
                                                   <div class="front">
-                                                    <img class="ExamplePhoto" src="<%= asset_path 'iphoneyellow.png' %>" style="width:220px; height:440px;">
+                                                    <img class="ExamplePhoto" src="<%= asset_path 'iphoneyellow.png' %>" style="width:220px; height:440px; border-radius:40px;">
                 		                                </div>
                 		                                  <div class="back">
                                                         <a href="#">
@@ -140,7 +140,7 @@
                                                         <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                                           <div class="flipper">
                                                             <div class="front">
-                                                              <img class="ExamplePhoto" src="<%= asset_path 'iphonegreen.png' %>" style="width:220px; height:440px;">
+                                                              <img class="ExamplePhoto" src="<%= asset_path 'iphonegreen.png' %>" style="width:220px; height:440px; border-radius:40px;">
                                                               </div>
                                                                 <div class="back">
                                                                   <a href="http://www.unlabelled-designs.com/">
@@ -262,6 +262,7 @@
                             <a href="https://github.com/carl-warburton"><i class="fa fa-github fa-fw fa-3x"></i></a>
                         </li>
                     </ul>
+
 <section id="contactme" form class="form-horizontal">
   <fieldset>
     <legend>Contact Me</legend>
@@ -284,6 +285,8 @@
           <button type="submit" class="btn btn-primary">Send Message</button>
       </div>
     </div>
+    <%= render 'enquiries/form', enquiry: @enquiry %>
+
   </section>
       <hr class="small">
         <p class="text-muted">Copyright &copy; Carl Warburton Portfolio 2016</p>
