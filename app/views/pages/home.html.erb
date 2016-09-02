@@ -40,7 +40,7 @@
                                 <h4>
                                     <strong>Back End Web Dev</strong>
                                 </h4>
-                                <p>Intermediate level Ruby, Beginner level Rails. Aim to refine these skills and learn JavaScript through intensive learning at the Coder Factory Academy by February 2017</p>
+                                <p>Intermediate level Ruby on Rails, Beginner level JavaScript</p>
 
                             </div>
                         </div>
@@ -53,7 +53,7 @@
                                 <h4>
                                     <strong>Front End Web Dev</strong>
                                 </h4>
-                                <p>Intermediate level HTML, Intermediate level CSS. Aim to refine these skills and learn JavaScript through intensive learning at the Coder Factory Academy by February 2017</p>
+                                <p>Intermediate level HTML, Intermediate level CSS</p>
 
                             </div>
                         </div>
@@ -66,7 +66,7 @@
                                 <h4>
                                     <strong>UX &amp; UI Design</strong>
                                 </h4>
-                                <p>Beginner level UX &amp; UI Design, mostly working on personal startup projects</p>
+                                <p>Beginner level UX &amp; UI Design</p>
 
                             </div>
                         </div>
@@ -79,7 +79,7 @@
                                 <h4>
                                     <strong>Entrepreneur</strong>
                                 </h4>
-                                <p>I Consider myself an entrepreneur first and foremost. After completing the Tech Startup Course at 'The Founder Institute' I concluded the most important skill I lacked was software development. I now enjoy utilizing my developer skills to prototype ideas</p>
+                                <p>Aspiring Entrepreneur. Participated in the Tech Startup Course at 'The Founder Institute'</p>
                             </div>
                           </div>
                         </div>
@@ -104,7 +104,6 @@
                                     <img class="ExamplePhoto" src="<%= asset_path 'iphonered.png' %>" style="width:220px; height:440px; border-radius:40px;">
 		                                </div>
 		                                  <div class="back">
-                                        <a href="#">
                                             <img class="ExamplePhoto" src="<%= asset_path 'mastermapred.png' %>" style="width:220px; height:440px; border-radius:40px;">
 		                                       </div>
 	                                        </div>
@@ -126,13 +125,13 @@
 
                                         <div class="col-md-6">
                                           <div class="portfolio-item">
+                                            <div class"portfolio-right">
                                               <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                                 <div class="flipper">
                                                   <div class="front">
                                                     <img class="ExamplePhoto" src="<%= asset_path 'iphoneyellow.png' %>" style="width:220px; height:440px; border-radius:40px;">
                 		                                </div>
                 		                                  <div class="back">
-                                                        <a href="#">
                                                             <img class="ExamplePhoto" src="<%= asset_path 'facilitiesyellow.png' %>" style="width:220px; height:440px; border-radius:40px;">
                 		                                       </div>
                 	                                        </div>
@@ -151,8 +150,9 @@
                                                             </a>
                                                           </div>
                                                         </div>
-                    </div>
-                  </section>
+                                                      </div>
+                                                    </div>
+                                                  </section>
 
                   <section id="books" class="books bg-primary">
                       <div class="container">
@@ -250,7 +250,7 @@
                     <br>
                     <ul class="list-inline">
                         <li>
-                            <a href="https://www.facebook.com/carl.warburton.3"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                            <a href="https://www.linkedin.com/in/carl-warburton-855808108?trk=nav_responsive_tab_profile"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
                         </li>
                         <li>
                             <a href="https://twitter.com/CarlWarbs"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
@@ -282,8 +282,8 @@
       <label for="textArea" class="col-lg-2 control-label">Message</label>
       <div class="col-lg-10">
         <textarea class="form-control" rows="3" id="Message" placeholder="Leave a message and I'll get back to you as soon as possible"></textarea>
-          <button type="submit" class="btn btn-primary">Send Message</button>
       </div>
+      <button type="submit" class="btn btn-primary">Send Message</button>
     </div>
     <%= render 'enquiries/form', enquiry: @enquiry %>
 

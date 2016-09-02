@@ -11,33 +11,28 @@
     </div>
   <% end %>
 
-  <div class="field form-group">
+  <div class="field form-group col-lg-10">
     <%= f.label :name %>
     <%= f.text_field :name, class: "form-control" %>
   </div>
 
-  <div class="field">
+  <div class="field form-group">
     <%= f.label :email %>
-    <%= f.text_field :email %>
+    <%= f.text_field :email, class: "form-horizontal" %>
   </div>
 
-  <div class="field">
-    <%= f.label :subject %>
-    <%= f.text_field :subject %>
-  </div>
-
-  <div class="field">
-    <%= f.label :message %>
-    <%= f.text_area :message %>
-  </div>
-
-  <div class="field">
+  <div class="field form-group">
     <%= f.label :mobile %>
-    <%= f.text_field :mobile %>
+    <%= f.text_field :mobile, class:"form-horizontal" %>
   </div>
 
+  <div class="field form-group">
+    <%= f.label :message %>
+    <%= f.text_area :message, class: "form-horizontal"%>
+  </div>
 
   <div class="actions">
     <%= f.submit %>
+
   </div>
 <% end %>
