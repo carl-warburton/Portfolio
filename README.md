@@ -1,25 +1,41 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Design Documentation:
 
-Things you may want to cover:
+* Sites intended Audience is employers seeking junior web developers
 
-* Ruby version
+* Design was intended to be simple to scale well on all devices, use of icons helped achieve this
 
-* System dependencies
+* Usability heuristics: simple navigation
 
-* Configuration
+* Style guide: Bootstrap sylish portfolio, font used: Helvetica
 
-* Database creation
+* Personal Logo: used as favicon
 
-* Database initialization
 
-* How to run the test suite
+Compliant website using HTML and css
 
-* Services (job queues, cache servers, search engines, etc.)
+* Complient in both HTML & css
 
-* Deployment instructions
+* Organised folder structure
 
-* ...
-# Portfolio
+* Readable code
+
+* Meta tags included
+
+* Contains robots.txt
+
+* Favicon included
+
+
+Published website
+
+* published on http://crwarburtonportfolio.herokuapp.com/
+
+* Displays correctly on mobile devices
+
+* displays correctly on Chrome, Safari, I.E. and firefox
+
+* images included & Optimised
+
+* Navigation simple through Nav bar
